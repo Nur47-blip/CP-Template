@@ -1,0 +1,66 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"CP Template": {
+		"prefix": "ios",
+		"body": [
+		  "#include <bits/stdc++.h>",
+		  "",
+		  "using namespace std;",
+		  "",
+		  "#define mp make_pair",
+		  "#define pb push_back",
+		  "#define int long long",
+		  "#define pii pair<int, int>",
+		  "#define fi first",
+		  "#define se second",
+		  "#define all(v) v.begin(), v.end()",
+		  "",
+		  "#define trace(x) cout << '>' << #x << ':' << x << \"\\n\"",
+		  "#define trace2(x,y) cout<< '>' << #x << ':' << x << \" | \" << #y << ':' << y << \"\\n\"",
+		  "#define trace3(a,b,c) cout<<#a<<\"=\"<<(a)<<\", \"<<#b<<\"=\"<<(b)<<\", \"<<#c<<\"=\"<<(c)<<\"\\n\"",
+		  "#define trace4(a,b,c,d) cout<<#a<<\"=\"<<(a)<<\", \"<<#b<<\"=\"<<(b)<<\", \"<<#c<<\"=\"<<(c)<<\", \"<<#d<<\"=\"<<(d)<<\"\\n\"",
+		  "",
+		  "template <typename T>",
+		  "void print(T var){",
+		  "    cout << var << ' ';",
+		  "    return;",
+		  "}",
+		  "",
+		  "template <typename T>",
+		  "void print(vector <T> var){",
+		  "    for (auto x: var)",
+		  "        print(x);",
+		  "    cout << \"\\n\";",
+		  "    return;",
+		  "}",
+		  "",
+		  "int dx[4] = {-1, 0, 1, 0};",
+		  "int dy[4] = {0, -1, 0, 1};",
+		  "const int mod = 1e9+7;",
+		  "",
+		  "signed main(){",
+		  "",
+		  "    ios_base::sync_with_stdio(false);",
+		  "    cin.tie(0);",
+		  "    cout.tie(0);",
+		  "",
+		  "    $0",
+		  "",
+		  "}"
+		],
+		"description": "CP Template"
+	  }
+}
